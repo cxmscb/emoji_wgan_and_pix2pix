@@ -1,16 +1,16 @@
-### Emoji  WGANs(improved)  & Pix2Pix
+## Emoji  WGANs(improved)  & Pix2Pix
 
-#### Overview
+### Overview
 
 Here are two tensorflow implementation GANs application on Emoji. 
 
-#### Emoji  WGANs(improved) 
+### Emoji  WGANs(improved) 
 
 Emoji  WGANs(improved) in  the directory named 'emoji_wgan_gp' for learning a mapping from input uniform distribution to output Emoji images , for example:
 
 ![](imgs/example_wgan_gp_0.jpg)
 
-#### Emoji Pix2Pix
+### Emoji Pix2Pix
 
 Emoji Pix2Pix in  the directory named 'emoji_pix2pix' for learning a mapping from input sketch image ( black-and-white painting )  to output Emoji images , for example:
 
@@ -20,7 +20,7 @@ Emoji Pix2Pix in  the directory named 'emoji_pix2pix' for learning a mapping fro
 
 ![](imgs/example_pix2pix_2.jpg)
 
-#### Dependencies (pip install)
+### Dependencies (pip install)
 
 ```
 cv2
@@ -29,7 +29,7 @@ scipy
 numpy
 ```
 
-#### Usage
+### Usage
 
 codes are typed in jupyter notebook which is convenient to debug codes .
 
@@ -37,6 +37,6 @@ Besides the  jupyter notebook , some tool code are included. The  `utils.py` can
 
 On the training process , the loss information will be saved in the `logs` directory . using tensorboard can see the loss about the Generator and Discriminator.
 
-#### Acknowledgments
+### Acknowledgments
 
 Code  refer heavily to [Pokemon_GAN](https://github.com/llSourcell/Pokemon_GAN) , which give me some inspiration to implement the application on Emoji.
