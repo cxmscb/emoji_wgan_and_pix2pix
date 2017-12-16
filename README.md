@@ -2,7 +2,7 @@
 
 ### Overview
 
-Here are two tensorflow implementation GANs application on Emoji. 
+Here are two tensorflow implementation GANs applications on Emoji. 
 
 ### Emoji  WGANs(improved) 
 
